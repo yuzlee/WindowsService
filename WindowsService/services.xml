@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<services>
+  <service>
+    <name>test</name>
+    <path>ping</path>
+    <args>
+      <arg>www.baidu.com -t</arg>
+    </args>
+    <description>
+      ping baidu for test
+    </description>
+  </service>
+  <service>
+    <name>drcom</name>
+    <path>python</path>
+    <args>
+      <arg>-m liarcom</arg>
+    </args>
+    <description>
+      Drcom Client
+    </description>
+  </service>
+</services>
